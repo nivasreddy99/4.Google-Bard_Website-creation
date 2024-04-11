@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[Restaurant Name] - Online Booking</title>
+  <style>
+    /* Styles for a beautiful header */
+    header {
+      background-color: #f0f0f0;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 2em;
+      margin: 0;
+    }
+
+    /* Styles for the restaurant image background */
+    body {
+      background-image: url("[path/to/your/restaurant/image.jpg]"); /* Replace with your image path */
+      background-size: cover;
+      background-position: center;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    /* Styles for the content area */
+    .content {
+      background-color: rgba(255, 255, 255, 0.8); /* White background with some transparency */
+      padding: 30px;
+      margin: 100px auto;
+      width: 400px;
+      border-radius: 10px;
+    }
+
+    /* Styles for the form */
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #333;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Styles for the footer */
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>[Restaurant Name]</h1>
+    <p>Delicious Food - Great Atmosphere</p>
+  </header>
+
+  <div class="content">
+    <h2>Book Your Table Now</h2>
+    <p>Reserve your spot for a delightful dining experience at [Restaurant Name].</p>
+
+    <form action="#">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <button type="submit">Login</button>
+    </form>
+
+    <p>Don't have an account? <a href="#">Sign Up Here</a></p>
+  </div>
+
+  <footer>
+    Copyright &copy; [Restaurant Name] [Current Year]
+  </footer>
+</body>
+</html>
